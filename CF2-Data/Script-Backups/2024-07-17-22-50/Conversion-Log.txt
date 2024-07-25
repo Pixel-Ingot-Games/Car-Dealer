@@ -1,0 +1,23 @@
+Converting script [1 / 1]	[\ModularFirstPersonController\FirstPersonController\FirstPersonController.cs]
+	Fragments : 14
+		[ 0] : Line:  156	Other mod.	[Cursor.lockState]
+		[ 1] : Line:  210	InputMethod   GetAxis             	("Mouse X")
+		[ 2] : Line:  214	InputMethod   GetAxis             	("Mouse Y")
+		[ 3] : Line:  219	InputMethod   GetAxis             	("Mouse Y")
+		[ 4] : Line:  235	InputMethod   GetKeyDown          	(zoomKey)
+		[ 5] : Line:  251	InputMethod   GetKeyDown          	(zoomKey)
+		[ 6] : Line:  255	InputMethod   GetKeyUp            	(zoomKey)
+		[ 7] : Line:  329	InputMethod   GetKeyDown          	(jumpKey)
+		[ 8] : Line:  340	InputMethod   GetKeyDown          	(crouchKey)
+		[ 9] : Line:  345	InputMethod   GetKeyDown          	(crouchKey)
+		[10] : Line:  350	InputMethod   GetKeyUp            	(crouchKey)
+		[11] : Line:  374	InputMethod   GetAxis             	("Horizontal")
+		[12] : Line:  374	InputMethod   GetAxis             	("Vertical")
+		[13] : Line:  388	InputMethod   GetKey              	(sprintKey)
+
+
+1 scripts modified!
+Overwriting actual scripts...
+	[0 / 1] from  [C:/Unity Projects/My project/CF2-Data/Script-Backups/2024-07-17-22-50\Assets-After/\ModularFirstPersonController\FirstPersonController\FirstPersonController.cs] to [C:/Unity Projects/My project/Assets/\ModularFirstPersonController\FirstPersonController\FirstPersonController.cs]
+
+Overwriting COMPLETED!
