@@ -1,0 +1,20 @@
+To define your own asset categories, go to Settings and add an entry to <i>Categories</i> list. The first category to match for a given path wins.
+***
+To select multiple categories or scenes from combo boxes hold <b>Control</b> key before clicking on the drop down.
+***
+Can't read details of assets in the map view? Try to narrow down the cryteria by category, scene or size.
+***
+You can use wildcards (<b>*</b>) in your category patterns.
+***
+If your report has assets' details, you can filter grid/map using search box and a pattern "<property>:<value>" (e.g. "format:rgb")
+***
+Bottom panel can be freely resized -- just drag the edge! Same applies to assets' details columns -- drag the left edge to resize.
+***
+To find MonoBehaviours that are not used on any scenes/resources type <b>ScriptReferences:"0"</b> into the search box (details collection required). 
+They still end up in the build because they can be created from code too.
+***
+To find uncompressed textures type <b>format:rgb</b> into the search box (details collection required).
+***
+If scenes seem to big, it may be caused by static batching. Click on '+' in the top right corner of the grid and check <b>Vertices</b> and <b>Triangles</b> to see if that's the reason.
+***
+You can sort by multiple columns. Simply press Ctrl+click on a column header.

@@ -1,0 +1,8 @@
+<b>Q: How do I enable/disable auto build analysis?</b>
+A: Click <i>Settings...</i> and then <i>Open</i> to go to settings. Alter the <i>Enabled</i> property.
+
+<b>Q: How do I open a build report?</b>
+A: Click <i>Open Report...</i> and choose a file.
+
+<b>Q: I don't have build reports, but I have some Unity build logs I'd like to analyze... help?</b>
+A: Click <i>Open Build Log...</i> and choose appropriate option. Note that in this mode information about scenes' sizes and assets usage is not going to be available.
