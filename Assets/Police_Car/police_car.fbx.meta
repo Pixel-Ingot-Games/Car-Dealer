@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 673e8d08ee9aa6543baa4ebfd47a6086
+timeCreated: 1446415763
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Hemi
+    100004: Hemi.001
+    100006: Mesh1 us_police_1 Model
+    100008: Mesh12 us_police_1 Model
+    100010: Mesh13 us_police_1 Model
+    100012: Mesh14 us_police_1 Model
+    100014: Mesh15 us_police_1 Model
+    100016: Mesh16 us_police_1 Model
+    100018: Mesh17 us_police_1 Model
+    100020: Mesh18 us_police_1 Model
+    100022: Mesh19 us_police_1 Model
+    100024: Mesh2 us_police_1 Model
+    100026: Mesh21 us_police_1 Model
+    100028: Mesh22 us_police_1 Model
+    100030: Mesh25 us_police_1 Model
+    100032: Mesh26 us_police_1 Model
+    100034: Mesh27 us_police_1 Model
+    100036: Mesh3 us_police_1 Model
+    100038: Mesh6 us_police_1 Model
+    100040: Mesh8 us_police_1 Model
+    100042: //RootNode
+    400000: Camera
+    400002: Hemi
+    400004: Hemi.001
+    400006: Mesh1 us_police_1 Model
+    400008: Mesh12 us_police_1 Model
+    400010: Mesh13 us_police_1 Model
+    400012: Mesh14 us_police_1 Model
+    400014: Mesh15 us_police_1 Model
+    400016: Mesh16 us_police_1 Model
+    400018: Mesh17 us_police_1 Model
+    400020: Mesh18 us_police_1 Model
+    400022: Mesh19 us_police_1 Model
+    400024: Mesh2 us_police_1 Model
+    400026: Mesh21 us_police_1 Model
+    400028: Mesh22 us_police_1 Model
+    400030: Mesh25 us_police_1 Model
+    400032: Mesh26 us_police_1 Model
+    400034: Mesh27 us_police_1 Model
+    400036: Mesh3 us_police_1 Model
+    400038: Mesh6 us_police_1 Model
+    400040: Mesh8 us_police_1 Model
+    400042: //RootNode
+    2300000: Mesh1 us_police_1 Model
+    2300002: Mesh12 us_police_1 Model
+    2300004: Mesh13 us_police_1 Model
+    2300006: Mesh14 us_police_1 Model
+    2300008: Mesh15 us_police_1 Model
+    2300010: Mesh16 us_police_1 Model
+    2300012: Mesh17 us_police_1 Model
+    2300014: Mesh18 us_police_1 Model
+    2300016: Mesh19 us_police_1 Model
+    2300018: Mesh2 us_police_1 Model
+    2300020: Mesh21 us_police_1 Model
+    2300022: Mesh22 us_police_1 Model
+    2300024: Mesh25 us_police_1 Model
+    2300026: Mesh26 us_police_1 Model
+    2300028: Mesh27 us_police_1 Model
+    2300030: Mesh3 us_police_1 Model
+    2300032: Mesh6 us_police_1 Model
+    2300034: Mesh8 us_police_1 Model
+    3300000: Mesh1 us_police_1 Model
+    3300002: Mesh12 us_police_1 Model
+    3300004: Mesh13 us_police_1 Model
+    3300006: Mesh14 us_police_1 Model
+    3300008: Mesh15 us_police_1 Model
+    3300010: Mesh16 us_police_1 Model
+    3300012: Mesh17 us_police_1 Model
+    3300014: Mesh18 us_police_1 Model
+    3300016: Mesh19 us_police_1 Model
+    3300018: Mesh2 us_police_1 Model
+    3300020: Mesh21 us_police_1 Model
+    3300022: Mesh22 us_police_1 Model
+    3300024: Mesh25 us_police_1 Model
+    3300026: Mesh26 us_police_1 Model
+    3300028: Mesh27 us_police_1 Model
+    3300030: Mesh3 us_police_1 Model
+    3300032: Mesh6 us_police_1 Model
+    3300034: Mesh8 us_police_1 Model
+    4300000: Mesh3 us_police_1 Model
+    4300002: Mesh12 us_police_1 Model
+    4300004: Mesh14 us_police_1 Model
+    4300006: Mesh18 us_police_1 Model
+    4300008: Mesh19 us_police_1 Model
+    4300010: Mesh17 us_police_1 Model
+    4300012: Mesh21 us_police_1 Model
+    4300014: Mesh1 us_police_1 Model
+    4300016: Mesh2 us_police_1 Model
+    4300018: Mesh26 us_police_1 Model
+    4300020: Mesh8 us_police_1 Model
+    4300022: Mesh16 us_police_1 Model
+    4300024: Mesh13 us_police_1 Model
+    4300026: Mesh6 us_police_1 Model
+    4300028: Mesh22 us_police_1 Model
+    4300030: Mesh15 us_police_1 Model
+    4300032: Mesh25 us_police_1 Model
+    4300034: Mesh27 us_police_1 Model
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
