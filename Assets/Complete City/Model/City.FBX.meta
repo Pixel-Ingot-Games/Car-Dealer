@@ -1,0 +1,966 @@
+fileFormatVersion: 2
+guid: f42ff1b5ce5e2e248a9cd7342d2d63c7
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Box014
+    100002: //RootNode
+    100004: container_blue009
+    100006: Mesh_HighLands_D_004
+    100008: Object001
+    100010: Object002
+    100012: Object003
+    100014: Object004
+    100016: Object005
+    100018: Object006
+    100020: Object007
+    100022: Object008
+    100024: Object009
+    100026: Object010
+    100028: Object011
+    100030: Object012
+    100032: Object013
+    100034: Object014
+    100036: Object015
+    100038: Object016
+    100040: Object017
+    100042: Object018
+    100044: Object019
+    100046: Object020
+    100048: Object021
+    100050: Object022
+    100052: Object023
+    100054: Object024
+    100056: Object025
+    100058: Object026
+    100060: Object027
+    100062: Object028
+    100064: Object029
+    100066: Object030
+    100068: Object031
+    100070: Object032
+    100072: Object033
+    100074: Object034
+    100076: Object035
+    100078: Object036
+    100080: Object038
+    100082: Object039
+    100084: Object040
+    100086: Object041
+    100088: Object042
+    100090: Object043
+    100092: Object044
+    100094: Object045
+    100096: Object046
+    100098: Object047
+    100100: Object048
+    100102: Object049
+    100104: Object050
+    100106: Object051
+    100108: Object052
+    100110: Object053
+    100112: Object054
+    100114: Object055
+    100116: Object056
+    100118: Object057
+    100120: Object058
+    100122: Object059
+    100124: Object060
+    100126: Object061
+    100128: Object062
+    100130: Object063
+    100132: Object064
+    100134: Object065
+    100136: Object066
+    100138: Object067
+    100140: Object068
+    100142: Object069
+    100144: Object070
+    100146: Object071
+    100148: Object072
+    100150: Object073
+    100152: Object074
+    100154: Object075
+    100156: Object076
+    100158: Object077
+    100160: Object078
+    100162: Object079
+    100164: Object080
+    100166: Object081
+    100168: Object082
+    100170: Object083
+    100172: Object084
+    100174: Object085
+    100176: Object086
+    100178: Object087
+    100180: Object088
+    100182: Object089
+    100184: Object090
+    100186: Object091
+    100188: Object092
+    100190: Object093
+    100192: Object094
+    100194: Object095
+    100196: Object096
+    100198: Object097
+    100200: Object098
+    100202: Object099
+    100204: Object100
+    100206: Object101
+    100208: Object102
+    100210: Object103
+    100212: Object104
+    100214: Object105
+    100216: Plane034
+    100218: Plane075
+    100220: Plane145
+    100222: Road
+    100224: tree_a_leaf012
+    400000: Box014
+    400002: //RootNode
+    400004: container_blue009
+    400006: Mesh_HighLands_D_004
+    400008: Object001
+    400010: Object002
+    400012: Object003
+    400014: Object004
+    400016: Object005
+    400018: Object006
+    400020: Object007
+    400022: Object008
+    400024: Object009
+    400026: Object010
+    400028: Object011
+    400030: Object012
+    400032: Object013
+    400034: Object014
+    400036: Object015
+    400038: Object016
+    400040: Object017
+    400042: Object018
+    400044: Object019
+    400046: Object020
+    400048: Object021
+    400050: Object022
+    400052: Object023
+    400054: Object024
+    400056: Object025
+    400058: Object026
+    400060: Object027
+    400062: Object028
+    400064: Object029
+    400066: Object030
+    400068: Object031
+    400070: Object032
+    400072: Object033
+    400074: Object034
+    400076: Object035
+    400078: Object036
+    400080: Object038
+    400082: Object039
+    400084: Object040
+    400086: Object041
+    400088: Object042
+    400090: Object043
+    400092: Object044
+    400094: Object045
+    400096: Object046
+    400098: Object047
+    400100: Object048
+    400102: Object049
+    400104: Object050
+    400106: Object051
+    400108: Object052
+    400110: Object053
+    400112: Object054
+    400114: Object055
+    400116: Object056
+    400118: Object057
+    400120: Object058
+    400122: Object059
+    400124: Object060
+    400126: Object061
+    400128: Object062
+    400130: Object063
+    400132: Object064
+    400134: Object065
+    400136: Object066
+    400138: Object067
+    400140: Object068
+    400142: Object069
+    400144: Object070
+    400146: Object071
+    400148: Object072
+    400150: Object073
+    400152: Object074
+    400154: Object075
+    400156: Object076
+    400158: Object077
+    400160: Object078
+    400162: Object079
+    400164: Object080
+    400166: Object081
+    400168: Object082
+    400170: Object083
+    400172: Object084
+    400174: Object085
+    400176: Object086
+    400178: Object087
+    400180: Object088
+    400182: Object089
+    400184: Object090
+    400186: Object091
+    400188: Object092
+    400190: Object093
+    400192: Object094
+    400194: Object095
+    400196: Object096
+    400198: Object097
+    400200: Object098
+    400202: Object099
+    400204: Object100
+    400206: Object101
+    400208: Object102
+    400210: Object103
+    400212: Object104
+    400214: Object105
+    400216: Plane034
+    400218: Plane075
+    400220: Plane145
+    400222: Road
+    400224: tree_a_leaf012
+    2100000: 'Material #6'
+    2100002: 'Material #85'
+    2100004: 'Material #27'
+    2100006: 'Material #26'
+    2100008: 'Material #25'
+    2100010: 'Material #54'
+    2100012: 'Material #53'
+    2100014: 'Material #28'
+    2100016: 'Material #9'
+    2100018: 'Material #35'
+    2100020: 'Material #207'
+    2100022: 'Material #10'
+    2100024: 'Material #5'
+    2100026: 'Material #4'
+    2100028: 'Material #3'
+    2100030: 'Material #2'
+    2100032: 'Material #7'
+    2100034: 'Material #8'
+    2100036: 'Material #29'
+    2100038: 'Material #206'
+    2100040: 'Material #205'
+    2100042: 'Material #204'
+    2100044: 'Material #128'
+    2100046: 'Material #115'
+    2100048: 'Material #76'
+    2100050: 'Material #89'
+    2100052: 'Material #170'
+    2100054: 'Material #171'
+    2100056: 'Material #102'
+    2100058: 'Material #50'
+    2100060: 'Material #63'
+    2100062: 'Material #141'
+    2100064: 'Material #142'
+    2100066: 'Material #143'
+    2100068: 'Material #169'
+    2100070: 'Material #37'
+    2100072: 'Material #24'
+    2100074: 'Material #23'
+    2300000: Box014
+    2300002: container_blue009
+    2300004: Object001
+    2300006: Object002
+    2300008: Object003
+    2300010: Object004
+    2300012: Object005
+    2300014: Object006
+    2300016: Object007
+    2300018: Object008
+    2300020: Object009
+    2300022: Object010
+    2300024: Object011
+    2300026: Object012
+    2300028: Object013
+    2300030: Object014
+    2300032: Object015
+    2300034: Object016
+    2300036: Object017
+    2300038: Object018
+    2300040: Object019
+    2300042: Object020
+    2300044: Object021
+    2300046: Object022
+    2300048: Object023
+    2300050: Object024
+    2300052: Object025
+    2300054: Object026
+    2300056: Object027
+    2300058: Object028
+    2300060: Object029
+    2300062: Object031
+    2300064: Object032
+    2300066: Object033
+    2300068: Object036
+    2300070: Object038
+    2300072: Object039
+    2300074: Object042
+    2300076: Object043
+    2300078: Object044
+    2300080: Object045
+    2300082: Object046
+    2300084: Object047
+    2300086: Object048
+    2300088: Object049
+    2300090: Object050
+    2300092: Object051
+    2300094: Object052
+    2300096: Object053
+    2300098: Object054
+    2300100: Object055
+    2300102: Object056
+    2300104: Object057
+    2300106: Object058
+    2300108: Object059
+    2300110: Object060
+    2300112: Object061
+    2300114: Object062
+    2300116: Object063
+    2300118: Object064
+    2300120: Object065
+    2300122: Object066
+    2300124: Object067
+    2300126: Object068
+    2300128: Object069
+    2300130: Object070
+    2300132: Object071
+    2300134: Object072
+    2300136: Object073
+    2300138: Object074
+    2300140: Object075
+    2300142: Object076
+    2300144: Object077
+    2300146: Object078
+    2300148: Object079
+    2300150: Object080
+    2300152: Object081
+    2300154: Object082
+    2300156: Object083
+    2300158: Object084
+    2300160: Object085
+    2300162: Object086
+    2300164: Object087
+    2300166: Object088
+    2300168: Object089
+    2300170: Object090
+    2300172: Object091
+    2300174: Object092
+    2300176: Object093
+    2300178: Object094
+    2300180: Object095
+    2300182: Object096
+    2300184: Object097
+    2300186: Object098
+    2300188: Object099
+    2300190: Object100
+    2300192: Object101
+    2300194: Object102
+    2300196: Object103
+    2300198: Object104
+    2300200: Object105
+    2300202: Plane034
+    2300204: Plane075
+    2300206: Plane145
+    2300208: Road
+    2300210: tree_a_leaf012
+    3300000: Box014
+    3300002: container_blue009
+    3300004: Object001
+    3300006: Object002
+    3300008: Object003
+    3300010: Object004
+    3300012: Object005
+    3300014: Object006
+    3300016: Object007
+    3300018: Object008
+    3300020: Object009
+    3300022: Object010
+    3300024: Object011
+    3300026: Object012
+    3300028: Object013
+    3300030: Object014
+    3300032: Object015
+    3300034: Object016
+    3300036: Object017
+    3300038: Object018
+    3300040: Object019
+    3300042: Object020
+    3300044: Object021
+    3300046: Object022
+    3300048: Object023
+    3300050: Object024
+    3300052: Object025
+    3300054: Object026
+    3300056: Object027
+    3300058: Object028
+    3300060: Object029
+    3300062: Object031
+    3300064: Object032
+    3300066: Object033
+    3300068: Object036
+    3300070: Object038
+    3300072: Object039
+    3300074: Object042
+    3300076: Object043
+    3300078: Object044
+    3300080: Object045
+    3300082: Object046
+    3300084: Object047
+    3300086: Object048
+    3300088: Object049
+    3300090: Object050
+    3300092: Object051
+    3300094: Object052
+    3300096: Object053
+    3300098: Object054
+    3300100: Object055
+    3300102: Object056
+    3300104: Object057
+    3300106: Object058
+    3300108: Object059
+    3300110: Object060
+    3300112: Object061
+    3300114: Object062
+    3300116: Object063
+    3300118: Object064
+    3300120: Object065
+    3300122: Object066
+    3300124: Object067
+    3300126: Object068
+    3300128: Object069
+    3300130: Object070
+    3300132: Object071
+    3300134: Object072
+    3300136: Object073
+    3300138: Object074
+    3300140: Object075
+    3300142: Object076
+    3300144: Object077
+    3300146: Object078
+    3300148: Object079
+    3300150: Object080
+    3300152: Object081
+    3300154: Object082
+    3300156: Object083
+    3300158: Object084
+    3300160: Object085
+    3300162: Object086
+    3300164: Object087
+    3300166: Object088
+    3300168: Object089
+    3300170: Object090
+    3300172: Object091
+    3300174: Object092
+    3300176: Object093
+    3300178: Object094
+    3300180: Object095
+    3300182: Object096
+    3300184: Object097
+    3300186: Object098
+    3300188: Object099
+    3300190: Object100
+    3300192: Object101
+    3300194: Object102
+    3300196: Object103
+    3300198: Object104
+    3300200: Object105
+    3300202: Plane034
+    3300204: Plane075
+    3300206: Plane145
+    3300208: Road
+    3300210: tree_a_leaf012
+    4300000: Box014
+    4300002: Plane034
+    4300004: tree_a_leaf012
+    4300006: Plane075
+    4300008: container_blue009
+    4300010: Plane145
+    4300012: Road
+    4300014: Object001
+    4300016: Object002
+    4300018: Object003
+    4300020: Object004
+    4300022: Object005
+    4300024: Object006
+    4300026: Object007
+    4300028: Object008
+    4300030: Object009
+    4300032: Object010
+    4300034: Object011
+    4300036: Object012
+    4300038: Object013
+    4300040: Object014
+    4300042: Object015
+    4300044: Object016
+    4300046: Object017
+    4300048: Object018
+    4300050: Object019
+    4300052: Object020
+    4300054: Object021
+    4300056: Object022
+    4300058: Object023
+    4300060: Object024
+    4300062: Object025
+    4300064: Object026
+    4300066: Object027
+    4300068: Object028
+    4300070: Object029
+    4300072: Object031
+    4300074: Object032
+    4300076: Object033
+    4300078: Object036
+    4300080: Object038
+    4300082: Object039
+    4300084: Object042
+    4300086: Object043
+    4300088: Object044
+    4300090: Object045
+    4300092: Object046
+    4300094: Object047
+    4300096: Object048
+    4300098: Object049
+    4300100: Object050
+    4300102: Object051
+    4300104: Object052
+    4300106: Object053
+    4300108: Object054
+    4300110: Object055
+    4300112: Object056
+    4300114: Object057
+    4300116: Object058
+    4300118: Object059
+    4300120: Object060
+    4300122: Object061
+    4300124: Object062
+    4300126: Object063
+    4300128: Object064
+    4300130: Object065
+    4300132: Object066
+    4300134: Object067
+    4300136: Object068
+    4300138: Object069
+    4300140: Object070
+    4300142: Object071
+    4300144: Object072
+    4300146: Object073
+    4300148: Object074
+    4300150: Object075
+    4300152: Object076
+    4300154: Object077
+    4300156: Object078
+    4300158: Object079
+    4300160: Object080
+    4300162: Object081
+    4300164: Object082
+    4300166: Object083
+    4300168: Object084
+    4300170: Object085
+    4300172: Object086
+    4300174: Object087
+    4300176: Object088
+    4300178: Object089
+    4300180: Object090
+    4300182: Object091
+    4300184: Object092
+    4300186: Object093
+    4300188: Object094
+    4300190: Object095
+    4300192: Object096
+    4300194: Object097
+    4300196: Object098
+    4300198: Object099
+    4300200: Object100
+    4300202: Object101
+    4300204: Object102
+    4300206: Object103
+    4300208: Object104
+    4300210: Object105
+    6400000: Box014
+    6400002: container_blue009
+    6400004: Object001
+    6400006: Object002
+    6400008: Object003
+    6400010: Object004
+    6400012: Object005
+    6400014: Object006
+    6400016: Object007
+    6400018: Object008
+    6400020: Object009
+    6400022: Object010
+    6400024: Object011
+    6400026: Object012
+    6400028: Object013
+    6400030: Object014
+    6400032: Object015
+    6400034: Object016
+    6400036: Object017
+    6400038: Object018
+    6400040: Object019
+    6400042: Object020
+    6400044: Object021
+    6400046: Object022
+    6400048: Object023
+    6400050: Object024
+    6400052: Object025
+    6400054: Object026
+    6400056: Object027
+    6400058: Object028
+    6400060: Object029
+    6400062: Object031
+    6400064: Object032
+    6400066: Object033
+    6400068: Object036
+    6400070: Object038
+    6400072: Object039
+    6400074: Object042
+    6400076: Object043
+    6400078: Object044
+    6400080: Object045
+    6400082: Object046
+    6400084: Object047
+    6400086: Object048
+    6400088: Object049
+    6400090: Object050
+    6400092: Object051
+    6400094: Object052
+    6400096: Object053
+    6400098: Object054
+    6400100: Object055
+    6400102: Object056
+    6400104: Object057
+    6400106: Object058
+    6400108: Object059
+    6400110: Object060
+    6400112: Object061
+    6400114: Object062
+    6400116: Object063
+    6400118: Object064
+    6400120: Object065
+    6400122: Object066
+    6400124: Object067
+    6400126: Object068
+    6400128: Object069
+    6400130: Object070
+    6400132: Object071
+    6400134: Object072
+    6400136: Object073
+    6400138: Object074
+    6400140: Object075
+    6400142: Object076
+    6400144: Object077
+    6400146: Object078
+    6400148: Object079
+    6400150: Object080
+    6400152: Object081
+    6400154: Object082
+    6400156: Object083
+    6400158: Object084
+    6400160: Object085
+    6400162: Object086
+    6400164: Object087
+    6400166: Object088
+    6400168: Object089
+    6400170: Object090
+    6400172: Object091
+    6400174: Object092
+    6400176: Object093
+    6400178: Object094
+    6400180: Object095
+    6400182: Object096
+    6400184: Object097
+    6400186: Object098
+    6400188: Object099
+    6400190: Object100
+    6400192: Object101
+    6400194: Object102
+    6400196: Object103
+    6400198: Object104
+    6400200: Object105
+    6400202: Plane034
+    6400204: Plane075
+    6400206: Plane145
+    6400208: Road
+    6400210: tree_a_leaf012
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #10'
+    second: {fileID: 2100000, guid: 1cb95f555b488a049bcfbf77ad25ae85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #102'
+    second: {fileID: 2100000, guid: 26a500a273c85eb459d10c0e8f6e8c4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #115'
+    second: {fileID: 2100000, guid: 26a500a273c85eb459d10c0e8f6e8c4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #128'
+    second: {fileID: 2100000, guid: 26a500a273c85eb459d10c0e8f6e8c4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #141'
+    second: {fileID: 2100000, guid: 26a500a273c85eb459d10c0e8f6e8c4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #142'
+    second: {fileID: 2100000, guid: 26a500a273c85eb459d10c0e8f6e8c4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #143'
+    second: {fileID: 2100000, guid: 26a500a273c85eb459d10c0e8f6e8c4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #169'
+    second: {fileID: 2100000, guid: 26a500a273c85eb459d10c0e8f6e8c4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #170'
+    second: {fileID: 2100000, guid: 26a500a273c85eb459d10c0e8f6e8c4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #171'
+    second: {fileID: 2100000, guid: 26a500a273c85eb459d10c0e8f6e8c4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2'
+    second: {fileID: 2100000, guid: f3f9115b9c8098246ab61751279ae8aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #204'
+    second: {fileID: 2100000, guid: 26a500a273c85eb459d10c0e8f6e8c4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #205'
+    second: {fileID: 2100000, guid: 84855dc2b315120448a996c660117205, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #206'
+    second: {fileID: 2100000, guid: 44125a34ec40fb1409cd435e7faa8d32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #207'
+    second: {fileID: 2100000, guid: 84855dc2b315120448a996c660117205, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #23'
+    second: {fileID: 2100000, guid: 26a500a273c85eb459d10c0e8f6e8c4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #24'
+    second: {fileID: 2100000, guid: 26a500a273c85eb459d10c0e8f6e8c4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #25'
+    second: {fileID: 2100000, guid: 44125a34ec40fb1409cd435e7faa8d32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #26'
+    second: {fileID: 2100000, guid: 07730b63165c51e448a99c8d314a7dbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #27'
+    second: {fileID: 2100000, guid: 44125a34ec40fb1409cd435e7faa8d32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #28'
+    second: {fileID: 2100000, guid: 44125a34ec40fb1409cd435e7faa8d32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #29'
+    second: {fileID: 2100000, guid: 07730b63165c51e448a99c8d314a7dbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #3'
+    second: {fileID: 2100000, guid: f3f9115b9c8098246ab61751279ae8aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #35'
+    second: {fileID: 2100000, guid: 9daa46bd87c67aa4bb5628e9691fa724, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #37'
+    second: {fileID: 2100000, guid: 26a500a273c85eb459d10c0e8f6e8c4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #4'
+    second: {fileID: 2100000, guid: f3f9115b9c8098246ab61751279ae8aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #5'
+    second: {fileID: 2100000, guid: f3f9115b9c8098246ab61751279ae8aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #50'
+    second: {fileID: 2100000, guid: 26a500a273c85eb459d10c0e8f6e8c4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #53'
+    second: {fileID: 2100000, guid: 07730b63165c51e448a99c8d314a7dbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #54'
+    second: {fileID: 2100000, guid: 07730b63165c51e448a99c8d314a7dbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #6'
+    second: {fileID: 2100000, guid: f3f9115b9c8098246ab61751279ae8aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #63'
+    second: {fileID: 2100000, guid: 26a500a273c85eb459d10c0e8f6e8c4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #7'
+    second: {fileID: 2100000, guid: f3f9115b9c8098246ab61751279ae8aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #76'
+    second: {fileID: 2100000, guid: 26a500a273c85eb459d10c0e8f6e8c4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #8'
+    second: {fileID: 2100000, guid: f3f9115b9c8098246ab61751279ae8aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #85'
+    second: {fileID: 2100000, guid: 07730b63165c51e448a99c8d314a7dbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #89'
+    second: {fileID: 2100000, guid: 26a500a273c85eb459d10c0e8f6e8c4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #9'
+    second: {fileID: 2100000, guid: 26a500a273c85eb459d10c0e8f6e8c4a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 190
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
