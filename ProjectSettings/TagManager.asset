@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Car
+  - TrafficLight
   layers:
   - Default
   - TransparentFX
@@ -19,11 +20,11 @@ TagManager:
   - RCC_DetachablePart
   - RCC_Trailer
   - RCC_Crasher
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Road
+  - Traffic
+  - Building
+  - Obstacle
+  - Player
   - 
   - 
   - 

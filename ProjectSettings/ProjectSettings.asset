@@ -830,7 +830,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: CF_FORCE_MOBILE_MODE;BCG_RCC
+    Android: CF_FORCE_MOBILE_MODE;BCG_RCC;GLEY_TRAFFIC_SYSTEM
     EmbeddedLinux: BCG_RCC
     GameCoreScarlett: BCG_RCC
     GameCoreXboxOne: BCG_RCC
