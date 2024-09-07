@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.iOS;
+//using UnityEngine.iOS;
 public class Links : Singleton<Links>
 {
     public void Exit()
@@ -12,6 +12,8 @@ public class Links : Singleton<Links>
     }
     public void RateUS()
     {
-        Device.RequestStoreReview();
+
+        ///For iOS
+      //  Device.RequestStoreReview();
     }
 }

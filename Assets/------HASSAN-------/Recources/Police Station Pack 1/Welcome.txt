@@ -1,0 +1,14 @@
+Thank you for purchasing the Stylized Police Station Pack!
+
+You can immediately start with creating your first environment. 
+Open the Prefabs folder, take a look at the variety of assets and start constructing your scene.
+Demoscenes are included aswell.
+
+
+If you like the package we would greatly appreciate a small review on the product page! :)
+I hope you'll have fun creating interesting and beautiful scenes!
+
+
+
+Tip:
+Use the Post Processing Stack and switch to Linear Color Space for better visuals (Availabe for free as a Unity Plugin)
