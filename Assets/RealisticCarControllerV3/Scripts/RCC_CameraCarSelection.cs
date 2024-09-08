@@ -27,6 +27,8 @@ public class RCC_CameraCarSelection : MonoBehaviour {
     public float yMinLimit = -20f;      //  Minimum Y angle of the camera.
     public float yMaxLimit = 80f;       //  Maximum Y angle of the camera.
 
+    public float FOV = 50f;
+
     private float x = 0f;       //  Current X input.
     private float y = 0f;       //  Current Y input.
 

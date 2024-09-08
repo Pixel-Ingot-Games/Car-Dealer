@@ -587,7 +587,6 @@ public class RCC_WelcomeWindow : EditorWindow {
 
             demoScenePaths.Add(RCC_AssetPaths.demo_PUN2Lobby);
             demoScenePaths.Add(RCC_AssetPaths.demo_PUN2City);
-            demoScenePaths.Add(RCC_AssetPaths.demo_PUN2CityEnterExit);
 
         }
 

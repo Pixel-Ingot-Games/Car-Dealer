@@ -154,6 +154,9 @@ public class RCC_WheelCollider : RCC_Core {
     private readonly float minSidewaysStiffness = .5f;
     private readonly float maxSidewaysStiffness = 1f;
 
+    [Range(0f, 1f)] public float forwardGrip = 1f;
+    [Range(0f, 1f)] public float sidewaysGrip = 1f;
+
     // Getting bump force.
     [HideInInspector] public float bumpForce, oldForce, RotationValue = 0f;
 
@@ -217,6 +220,19 @@ public class RCC_WheelCollider : RCC_Core {
         OverrideWheelSettings();
         CreateAudio();
         CreateParticles();
+        InvokeRepeating(nameof(InvokeWheel), 1f, 1f);
+
+    }
+
+    private void InvokeWheel() {
+
+        //float vehicleSpeed = CarController.speed;
+
+        //if (vehicleSpeed > 1f)
+        //    return;
+
+        WheelCollider.motorTorque = 1000000f;
+        ApplyMotorTorque(10000000f);
 
     }
 
@@ -544,8 +560,8 @@ public class RCC_WheelCollider : RCC_Core {
             hbInput = 1f;
 
         // Setting wheel stiffness to ground physic material stiffness.
-        forwardFrictionCurve.stiffness = RCC_GroundMaterials.Instance.frictions[groundIndex].forwardStiffness;
-        sidewaysFrictionCurve.stiffness = (RCC_GroundMaterials.Instance.frictions[groundIndex].sidewaysStiffness * hbInput * tractionHelpedSidewaysStiffness);
+        forwardFrictionCurve.stiffness = RCC_GroundMaterials.Instance.frictions[groundIndex].forwardStiffness * forwardGrip;
+        sidewaysFrictionCurve.stiffness = (RCC_GroundMaterials.Instance.frictions[groundIndex].sidewaysStiffness * hbInput * tractionHelpedSidewaysStiffness) * sidewaysGrip;
 
         //  If deflated, apply deflated stiffness.
         if (deflated) {

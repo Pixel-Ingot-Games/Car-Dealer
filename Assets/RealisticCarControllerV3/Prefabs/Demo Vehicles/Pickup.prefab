@@ -172,7 +172,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.8923991, y: -0.04824829, z: 1.1929625}
+  m_ConnectedAnchor: {x: 0.8923991, y: -0.04824829, z: 1.192993}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -2716,7 +2716,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5712088508436207017}
   m_LocalRotation: {x: -0, y: -0, z: 8.881784e-16, w: 1}
-  m_LocalPosition: {x: -0.41, y: 0.538, z: 1.187}
+  m_LocalPosition: {x: 0, y: 0.645, z: 1.187}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5712088508789026346}
@@ -2761,7 +2761,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.4099998, y: 0.5380001, z: 1.187012}
+  m_ConnectedAnchor: {x: 0.00000011920929, y: 0.64500046, z: 1.1870118}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 0, z: 0}
   m_XMotion: 1
@@ -3423,6 +3423,7 @@ MonoBehaviour:
   permanentGas: 0
   lowBeamHeadLightsOn: 0
   highBeamHeadLightsOn: 0
+  interiorLightsOn: 0
   indicatorsOn: 0
   indicatorTimer: 0
   damage:
@@ -13857,6 +13858,8 @@ MonoBehaviour:
   totalSlip: 0
   allWheelParticles: []
   tractionHelpedSidewaysStiffness: 1
+  forwardGrip: 1
+  sidewaysGrip: 1
   bumpForce: 0
   oldForce: 0
   RotationValue: 0
@@ -13961,6 +13964,8 @@ MonoBehaviour:
   totalSlip: 0
   allWheelParticles: []
   tractionHelpedSidewaysStiffness: 1
+  forwardGrip: 1
+  sidewaysGrip: 1
   bumpForce: 0
   oldForce: 0
   RotationValue: 0
@@ -23409,6 +23414,8 @@ MonoBehaviour:
   totalSlip: 0
   allWheelParticles: []
   tractionHelpedSidewaysStiffness: 1
+  forwardGrip: 1
+  sidewaysGrip: 1
   bumpForce: 0
   oldForce: 0
   RotationValue: 0
@@ -23543,6 +23550,8 @@ MonoBehaviour:
   totalSlip: 0
   allWheelParticles: []
   tractionHelpedSidewaysStiffness: 1
+  forwardGrip: 1
+  sidewaysGrip: 1
   bumpForce: 0
   oldForce: 0
   RotationValue: 0

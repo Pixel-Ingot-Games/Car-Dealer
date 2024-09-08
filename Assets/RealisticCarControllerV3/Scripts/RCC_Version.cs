@@ -16,6 +16,6 @@ using UnityEngine;
 /// </summary>
 public class RCC_Version {
 
-    public const string version = "V3.81";
+    public const string version = "V3.95";
 
 }

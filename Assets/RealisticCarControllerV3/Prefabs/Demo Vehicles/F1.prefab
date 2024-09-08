@@ -419,6 +419,8 @@ MonoBehaviour:
   totalSlip: 0
   allWheelParticles: []
   tractionHelpedSidewaysStiffness: 1
+  forwardGrip: 1
+  sidewaysGrip: 1
   bumpForce: 0
   oldForce: 0
   RotationValue: 0
@@ -5351,6 +5353,8 @@ MonoBehaviour:
   totalSlip: 0
   allWheelParticles: []
   tractionHelpedSidewaysStiffness: 1
+  forwardGrip: 1
+  sidewaysGrip: 1
   bumpForce: 0
   oldForce: 0
   RotationValue: 0
@@ -5463,13 +5467,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3433750683199085629}
-  m_LocalRotation: {x: 0.026176924, y: 0, z: 0, w: 0.99965733}
-  m_LocalPosition: {x: 0, y: 0.257, z: -0.264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.311, z: -0.288}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3433750683821809969}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 3, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3433750683199085625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5509,7 +5513,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000007748604, y: 0.25699997, z: -0.2640076}
+  m_ConnectedAnchor: {x: -0.000000029802322, y: 0.31100082, z: -0.2879944}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 0, z: 0}
   m_XMotion: 1
@@ -10380,6 +10384,8 @@ MonoBehaviour:
   totalSlip: 0
   allWheelParticles: []
   tractionHelpedSidewaysStiffness: 1
+  forwardGrip: 1
+  sidewaysGrip: 1
   bumpForce: 0
   oldForce: 0
   RotationValue: 0
@@ -10574,6 +10580,8 @@ MonoBehaviour:
   totalSlip: 0
   allWheelParticles: []
   tractionHelpedSidewaysStiffness: 1
+  forwardGrip: 1
+  sidewaysGrip: 1
   bumpForce: 0
   oldForce: 0
   RotationValue: 0
@@ -15598,6 +15606,7 @@ MonoBehaviour:
   permanentGas: 0
   lowBeamHeadLightsOn: 0
   highBeamHeadLightsOn: 0
+  interiorLightsOn: 0
   indicatorsOn: 0
   indicatorTimer: 0
   damage:

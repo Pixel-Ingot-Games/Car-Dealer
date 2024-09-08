@@ -267,7 +267,10 @@ public class RCC_AICarController : MonoBehaviour {
         // Assigning navigator's position to front wheels of the vehicle
         navigator.transform.localPosition = Vector3.zero;
         navigator.transform.localPosition += Vector3.forward * CarController.FrontLeftWheelCollider.transform.localPosition.z;
-
+        navigator.updatePosition = true;
+        navigator.Move((Vector3.forward * 1f));
+        //navigator.(transform.position); 
+         
         CheckTargets();     //  Checking targets if navigation mode is set to chase or follow target mode.
         CheckBrakeZones();      //  Checking existing brake zones in the scene.
 

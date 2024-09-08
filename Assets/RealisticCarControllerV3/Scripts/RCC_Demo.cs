@@ -79,7 +79,6 @@ public class RCC_Demo : MonoBehaviour {
             if (lastEnterExitVehicle && lastEnterExitVehicle.driver) {
 
                 enterExitVehicleFound = true;
-                BCG_EnterExitManager.Instance.waitTime = 10f;
                 lastEnterExitVehicle.driver.GetOut();
 
             }
@@ -108,7 +107,6 @@ public class RCC_Demo : MonoBehaviour {
 
             if (BCG_EnterExitManager.Instance.activePlayer && lastEnterExitVehicle && lastEnterExitVehicle.driver == null) {
 
-                BCG_EnterExitManager.Instance.waitTime = 10f;
                 BCG_EnterExitManager.Instance.activePlayer.GetIn(lastEnterExitVehicle);
 
             }

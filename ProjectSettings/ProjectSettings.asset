@@ -830,24 +830,24 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: CF_FORCE_MOBILE_MODE;BCG_RCC;GLEY_TRAFFIC_SYSTEM;MOREMOUNTAINS_NICEVIBRATIONS_INSTALLED
-    EmbeddedLinux: BCG_RCC
-    GameCoreScarlett: BCG_RCC
-    GameCoreXboxOne: BCG_RCC
-    LinuxHeadlessSimulation: BCG_RCC
+    Android: CF_FORCE_MOBILE_MODE;BCG_RCC;GLEY_TRAFFIC_SYSTEM;MOREMOUNTAINS_NICEVIBRATIONS_INSTALLED;BCG_ENTEREXIT
+    EmbeddedLinux: BCG_RCC;BCG_ENTEREXIT
+    GameCoreScarlett: BCG_RCC;BCG_ENTEREXIT
+    GameCoreXboxOne: BCG_RCC;BCG_ENTEREXIT
+    LinuxHeadlessSimulation: BCG_RCC;BCG_ENTEREXIT
     Lumin: BCG_RCC
-    Nintendo Switch: BCG_RCC
-    PS4: BCG_RCC
-    PS5: BCG_RCC
-    QNX: BCG_RCC
-    Stadia: BCG_RCC
-    Standalone: BCG_RCC
-    VisionOS: BCG_RCC
-    WebGL: BCG_RCC
-    Windows Store Apps: CF_FORCE_MOBILE_MODE;BCG_RCC
-    XboxOne: BCG_RCC
-    iPhone: CF_FORCE_MOBILE_MODE;BCG_RCC
-    tvOS: BCG_RCC
+    Nintendo Switch: BCG_RCC;BCG_ENTEREXIT
+    PS4: BCG_RCC;BCG_ENTEREXIT
+    PS5: BCG_RCC;BCG_ENTEREXIT
+    QNX: BCG_RCC;BCG_ENTEREXIT
+    Stadia: BCG_RCC;BCG_ENTEREXIT
+    Standalone: BCG_RCC;BCG_ENTEREXIT
+    VisionOS: BCG_RCC;BCG_ENTEREXIT
+    WebGL: BCG_RCC;BCG_ENTEREXIT
+    Windows Store Apps: CF_FORCE_MOBILE_MODE;BCG_RCC;BCG_ENTEREXIT
+    XboxOne: BCG_RCC;BCG_ENTEREXIT
+    iPhone: CF_FORCE_MOBILE_MODE;BCG_RCC;BCG_ENTEREXIT
+    tvOS: BCG_RCC;BCG_ENTEREXIT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:

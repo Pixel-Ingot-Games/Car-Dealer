@@ -50,7 +50,6 @@ public class RCC_AssetPaths {
 
     public const string demo_PUN2Lobby = "Assets/RealisticCarControllerV3/Demo Scenes/RCC Photon Scenes/RCC Lobby (Photon PUN2).unity";
     public const string demo_PUN2City = "Assets/RealisticCarControllerV3/Demo Scenes/RCC Photon Scenes/RCC City (Photon PUN2).unity";
-    public const string demo_PUN2CityEnterExit = "Assets/RealisticCarControllerV3/Demo Scenes/RCC Photon Scenes/RCC City Enter Exit FPS (Photon PUN2).unity";
 
     public readonly static string[] demoAssetPaths = new string[]{
 

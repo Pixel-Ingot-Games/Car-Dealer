@@ -22,7 +22,9 @@ public class RCC_CarSelectionExample : MonoBehaviour {
     public Transform spawnPosition;     // Spawn transform.
     public int selectedIndex = 0;           // Selected vehicle index. Next and previous buttons are affecting this value.
 
+    public GameObject RCCCanvas;
     public RCC_Camera RCCCamera;        // Enabling / disabling camera selection script on RCC Camera if choosen.
+
     public string nextScene;        //  Name of the target scene when we select the vehicle.
 
     private void Start() {
@@ -65,6 +67,9 @@ public class RCC_CarSelectionExample : MonoBehaviour {
                 RCCCamera.GetComponent<RCC_CameraCarSelection>().enabled = true;
 
         }
+
+        if (RCCCanvas)
+            RCCCanvas.SetActive(false);
 
     }
 
@@ -135,7 +140,12 @@ public class RCC_CarSelectionExample : MonoBehaviour {
             if (RCCCamera.GetComponent<RCC_CameraCarSelection>())
                 RCCCamera.GetComponent<RCC_CameraCarSelection>().enabled = false;
 
+            RCCCamera.ChangeCamera(RCC_Camera.CameraMode.TPS);
+
         }
+
+        if (RCCCanvas)
+            RCCCanvas.SetActive(true);
 
         if (!string.IsNullOrEmpty(nextScene))
             OpenScene();
@@ -163,13 +173,18 @@ public class RCC_CarSelectionExample : MonoBehaviour {
         _spawnedVehicles[selectedIndex].GetComponent<Rigidbody>().velocity = Vector3.zero;
         _spawnedVehicles[selectedIndex].GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
 
-        // If RCC Camera is choosen, it wil enable RCC_CameraCarSelection script. This script was used for orbiting camera.
+        // If RCC Camera is choosen, it wil enable RCC_CameraCarSelection script. This script was used to orbit the camera.
         if (RCCCamera) {
 
             if (RCCCamera.GetComponent<RCC_CameraCarSelection>())
                 RCCCamera.GetComponent<RCC_CameraCarSelection>().enabled = true;
 
+            RCCCamera.ChangeCamera(RCC_Camera.CameraMode.TPS);
+
         }
+
+        if (RCCCanvas)
+            RCCCanvas.SetActive(false);
 
     }
 
