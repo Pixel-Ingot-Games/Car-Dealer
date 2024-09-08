@@ -1,0 +1,30 @@
+Converting script [1 / 4]	[\RealisticCarControllerV3\Scripts\RCC_SceneManager.cs]
+	Fragments : 1
+		[ 0] : Line:  110	Other mod.	[Cursor.lockState]
+
+Converting script [2 / 4]	[\Gley\TrafficSystem\Example\TrafficExample.cs]
+	Fragments : 3
+		[ 0] : Line:   52	InputMethod   GetKeyDown          	(KeyCode.Alpha1)
+		[ 1] : Line:   57	InputMethod   GetKeyDown          	(KeyCode.Alpha2)
+		[ 2] : Line:   62	InputMethod   GetKeyDown          	(KeyCode.Escape)
+
+Converting script [3 / 4]	[\Gley\UrbanAssets\Scripts\Internal\Example\PlayerCar.cs]
+	Fragments : 3
+		[ 0] : Line:  118	InputMethod   GetKeyDown          	(KeyCode.Space)
+		[ 1] : Line:  124	InputMethod   GetKeyDown          	(KeyCode.Q)
+		[ 2] : Line:  138	InputMethod   GetKeyDown          	(KeyCode.E)
+
+Converting script [4 / 4]	[\Gley\UrbanAssets\Scripts\Internal\UI\UIInput.cs]
+	Fragments : 2
+		[ 0] : Line:  118	InputMethod   GetAxis             	("Horizontal")
+		[ 1] : Line:  119	InputMethod   GetAxis             	("Vertical")
+
+
+4 scripts modified!
+Overwriting actual scripts...
+	[0 / 4] from  [C:/Unity Projects/PoliceCarChase/CF2-Data/Script-Backups/2024-09-08-15-29\Assets-After/\RealisticCarControllerV3\Scripts\RCC_SceneManager.cs] to [C:/Unity Projects/PoliceCarChase/Assets/\RealisticCarControllerV3\Scripts\RCC_SceneManager.cs]
+	[1 / 4] from  [C:/Unity Projects/PoliceCarChase/CF2-Data/Script-Backups/2024-09-08-15-29\Assets-After/\Gley\TrafficSystem\Example\TrafficExample.cs] to [C:/Unity Projects/PoliceCarChase/Assets/\Gley\TrafficSystem\Example\TrafficExample.cs]
+	[2 / 4] from  [C:/Unity Projects/PoliceCarChase/CF2-Data/Script-Backups/2024-09-08-15-29\Assets-After/\Gley\UrbanAssets\Scripts\Internal\Example\PlayerCar.cs] to [C:/Unity Projects/PoliceCarChase/Assets/\Gley\UrbanAssets\Scripts\Internal\Example\PlayerCar.cs]
+	[3 / 4] from  [C:/Unity Projects/PoliceCarChase/CF2-Data/Script-Backups/2024-09-08-15-29\Assets-After/\Gley\UrbanAssets\Scripts\Internal\UI\UIInput.cs] to [C:/Unity Projects/PoliceCarChase/Assets/\Gley\UrbanAssets\Scripts\Internal\UI\UIInput.cs]
+
+Overwriting COMPLETED!

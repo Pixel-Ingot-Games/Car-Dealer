@@ -2,7 +2,7 @@ using System.Collections;
 using DhafinFawwaz.AnimationUILib;
 using TMPro;
 using UnityEngine;
-using UnityEngine.iOS;
+//using UnityEngine.iOS;
 
 public class InGameUIHandler : Singleton<InGameUIHandler>
 {
@@ -92,7 +92,7 @@ public class InGameUIHandler : Singleton<InGameUIHandler>
     {
         if (GameConstant.CurrentLevel%2==0)
         {
-            Device.RequestStoreReview();
+           // Device.RequestStoreReview();
         }
     }
 }

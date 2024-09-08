@@ -115,13 +115,13 @@ namespace Gley.UrbanSystem.Internal
         private void Update()
         {
             realtimeSinceStartup += Time.deltaTime;
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (ControlFreak2.CF2Input.GetKeyDown(KeyCode.Space))
             {
                 mainLights = !mainLights;
                 lightsComponent.SetMainLights(mainLights);
             }
 
-            if (Input.GetKeyDown(KeyCode.Q))
+            if (ControlFreak2.CF2Input.GetKeyDown(KeyCode.Q))
             {
                 blinkLeft = !blinkLeft;
                 if (blinkLeft == true)
@@ -135,7 +135,7 @@ namespace Gley.UrbanSystem.Internal
                 }
             }
 
-            if (Input.GetKeyDown(KeyCode.E))
+            if (ControlFreak2.CF2Input.GetKeyDown(KeyCode.E))
             {
                 blinkRifgt = !blinkRifgt;
                 if (blinkRifgt == true)

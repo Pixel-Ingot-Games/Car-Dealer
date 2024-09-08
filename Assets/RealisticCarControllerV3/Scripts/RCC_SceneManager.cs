@@ -107,7 +107,7 @@ public class RCC_SceneManager : RCC_Singleton<RCC_SceneManager> {
 
         //  If lock cursor is enabled in RCC Settings, lock the cursor.
         if (RCC_Settings.Instance.lockAndUnlockCursor)
-            Cursor.lockState = CursorLockMode.Locked;
+            ControlFreak2.CFCursor.lockState = CursorLockMode.Locked;
 
     }
 

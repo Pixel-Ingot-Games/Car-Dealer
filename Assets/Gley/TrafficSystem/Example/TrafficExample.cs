@@ -1,4 +1,4 @@
-using Gley.UrbanSystem.Internal;
+﻿using Gley.UrbanSystem.Internal;
 using UnityEngine;
 
 namespace Gley.TrafficSystem.Internal
@@ -49,17 +49,17 @@ namespace Gley.TrafficSystem.Internal
             }
 
             //if 1 key is press the vehicles will move towards the edge of the road
-            if (Input.GetKeyDown(KeyCode.Alpha1))
+            if (ControlFreak2.CF2Input.GetKeyDown(KeyCode.Alpha1))
             {
                 API.ClearPathForSpecialVehicles(true, RoadSide.Right);
             }
 
-            if (Input.GetKeyDown(KeyCode.Alpha2))
+            if (ControlFreak2.CF2Input.GetKeyDown(KeyCode.Alpha2))
             {
                 API.ClearPathForSpecialVehicles(false, RoadSide.Right);
             }
 
-            if (Input.GetKeyDown(KeyCode.Escape))
+            if (ControlFreak2.CF2Input.GetKeyDown(KeyCode.Escape))
             {
                 Application.Quit();
             }

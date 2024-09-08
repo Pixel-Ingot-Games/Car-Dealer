@@ -115,8 +115,8 @@ namespace Gley.UrbanSystem.Internal
 
             verticalInput = Mathf.Clamp(verticalInput, -1, 1);
 #else
-            horizontalInput = Input.GetAxis("Horizontal");
-            verticalInput = Input.GetAxis("Vertical");
+            horizontalInput = ControlFreak2.CF2Input.GetAxis("Horizontal");
+            verticalInput = ControlFreak2.CF2Input.GetAxis("Vertical");
 #endif
         }
 

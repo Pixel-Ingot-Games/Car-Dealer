@@ -15,4 +15,4 @@ MonoBehaviour:
   enableEnterExit_Photon: 0
   keepEnginesAlive: 1
   enterExitSpeedLimit: 20
-  mobileController: 0
+  mobileController: 1

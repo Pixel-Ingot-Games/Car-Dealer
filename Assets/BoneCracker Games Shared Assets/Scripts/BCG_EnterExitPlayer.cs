@@ -72,8 +72,10 @@ public class BCG_EnterExitPlayer : MonoBehaviour {
     public void GetIn(BCG_EnterExitVehicle vehicle) {
 
         if (OnBCGPlayerEnteredAVehicle != null)
+        {
             OnBCGPlayerEnteredAVehicle(this, vehicle);
-
+          
+        }
     }
 
     public void GetOut() {
