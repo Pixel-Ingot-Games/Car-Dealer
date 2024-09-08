@@ -38,22 +38,10 @@ public class CarInteraction : MonoBehaviour
         {
             // Draw the ray in the Scene view for debugging
             Debug.DrawRay(origin, direction * hit.distance, Color.green);
-            enterCarUI.SetActive(true);
-            if (hit.collider.gameObject == gameObject) // Check if the raycast hit this car
+            if (hit.collider.GetComponent<RCC_CarControllerV3>() == carController && !isInCar) // Check if the raycast hit this car
             {
+                enterCarUI.SetActive(true);
                 isNearCar = true;
-
-                if (Input.GetKeyDown(KeyCode.Return)) // Enter/Exit car
-                {
-                    if (!isInCar)
-                    {
-                        EnterCar();
-                    }
-                    else
-                    {
-                        ExitCar();
-                    }
-                }
             }
             else
             {
@@ -90,7 +78,7 @@ public class CarInteraction : MonoBehaviour
         rccCarCamera.SetActive(true);
         enterCarUI.SetActive(false);
         isInCar = true;
-                                                          // Set player position to the car's exit position
+        // Set player position to the car's exit position
         fpsController.transform.position = exitPosition.position;
     }
 
@@ -100,7 +88,8 @@ public class CarInteraction : MonoBehaviour
         fpsUI.SetActive(true);
         rccCarUI.SetActive(false);
         rccCarCamera.SetActive(false);
-        exitCarUI.SetActive(false); // Hide exitCarUI when exiting the car
+        exitCarUI.SetActive(false);
+        enterCarUI.SetActive(false);
         isInCar = false;
     }
 }
