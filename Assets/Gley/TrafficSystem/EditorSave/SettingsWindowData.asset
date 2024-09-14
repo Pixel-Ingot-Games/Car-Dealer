@@ -66,7 +66,7 @@ MonoBehaviour:
   viewRoadLaneChanges: 1
   leftSideTraffic: 0
   maxSpeed: 50
-  nrOfLanes: 2
+  nrOfLanes: 1
   otherLaneLinkDistance: 1
   globalCarList: 00000000
   showAllIntersections: 0

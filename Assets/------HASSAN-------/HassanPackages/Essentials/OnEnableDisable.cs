@@ -20,10 +20,18 @@ public class OnEnableDisable : MonoBehaviour
     }
     private void OnDisable()
     {
+        if (!gameObject.activeSelf)
+        {
+            return; // Prevent redundant deactivation
+        }
+
         onDisbale?.Invoke();
 
-        FunctionTimer.CreateCountdownWithSlider(onDisableDelayTimer).OnComplete(() => { onDisbaleDelay?.Invoke(); });
+        FunctionTimer.CreateCountdownWithSlider(onDisableDelayTimer).OnComplete(() => {
+            onDisbaleDelay?.Invoke();
+        });
     }
+
 
     private void OnEnableDelayEvent()
     {
