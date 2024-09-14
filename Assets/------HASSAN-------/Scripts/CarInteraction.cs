@@ -60,7 +60,7 @@ public class CarInteraction : MonoBehaviour
         // Optionally, display a prompt when the player is near the car
         if (isNearCar)
         {
-            Debug.Log("Press Enter to enter the car");
+           // Debug.Log("Press Enter to enter the car");
         }
 
         // Update exitCarUI visibility based on carController speed
