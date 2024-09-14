@@ -6,10 +6,14 @@ public class ThiefCatch : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject EndCutScene;
+    public GameObject Endcam;
+    public GameObject police;
+    public GameObject thief;
     private int collide = 0;
     void Start()
     {
         EndCutScene.SetActive(false);
+        Endcam.SetActive(false);
     }
     public void OnCollisionEnter(Collision collision)
     {
@@ -20,6 +24,9 @@ public class ThiefCatch : MonoBehaviour
         if(collide==2)
         {
             EndCutScene.SetActive(true);
+            Endcam.SetActive(true);
+            police.SetActive(true);
+            thief.SetActive(true);
 
         }
     }
