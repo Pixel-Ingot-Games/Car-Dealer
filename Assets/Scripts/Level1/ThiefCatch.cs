@@ -18,9 +18,9 @@ public class ThiefCatch : MonoBehaviour
     private int collide = 0;
     void Start()
     {
-        EndCutScene.SetActive(false);
-        Endcam.SetActive(false);
-        Lvl2EndScene.SetActive(false);
+        //EndCutScene.SetActive(false);
+        //Endcam.SetActive(false);
+        //Lvl2EndScene.SetActive(false);
     }
     public void OnCollisionEnter(Collision collision)
     {
@@ -30,10 +30,10 @@ public class ThiefCatch : MonoBehaviour
         }
         if (collide == 2)
         {
-            EndCutScene.SetActive(true);
-            Endcam.SetActive(true);
-            police.SetActive(true);
-            thief.SetActive(true);
+            //EndCutScene.SetActive(true);
+            //Endcam.SetActive(true);
+            //police.SetActive(true);
+            //thief.SetActive(true);
 
         }
         //Level2 Functionality 
