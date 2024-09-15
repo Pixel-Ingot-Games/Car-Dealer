@@ -90,13 +90,13 @@ public class ObjectiveManager : MonoBehaviour
     private IEnumerator TypeText(string text, float typingSpeed)
     {
         objectiveText.text = string.Empty;
-        AudioManager.Instance.Play(SoundName.Typing);
+        //AudioManager.Instance.Play(SoundName.Typing);
         foreach (var letter in text.ToCharArray())
         {
             objectiveText.text += letter; 
             yield return new WaitForSeconds(typingSpeed); 
         }
-        AudioManager.Instance.Stop(SoundName.Typing);
+       // AudioManager.Instance.Stop(SoundName.Typing);
         _displayCoroutine = StartCoroutine(HideObjectiveAfterDelay());
     }
 
