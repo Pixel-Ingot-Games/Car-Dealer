@@ -9,6 +9,7 @@ TagManager:
   - ThiefCar
   - ThiefCar2
   - ThiefCar1
+  - PoliceCar
   layers:
   - Default
   - TransparentFX

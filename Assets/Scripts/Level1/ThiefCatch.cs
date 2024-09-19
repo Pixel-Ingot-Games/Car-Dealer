@@ -69,18 +69,9 @@ public class ThiefCatch : MonoBehaviour
     void CheckBothCarsHitTwice()
     {
         if (thiefCarOneHits == 2 && thiefCarTwoHits == 2)
-        {
-            
-            
-                Lvl2EndScene.SetActive(true);
-
+        {            
+            Lvl2EndScene.SetActive(true);
             Debug.Log("Both Thief Cars hit twice. Triggering cutscene.");
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
