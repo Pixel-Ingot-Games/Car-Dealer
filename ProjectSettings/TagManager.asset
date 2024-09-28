@@ -10,6 +10,7 @@ TagManager:
   - ThiefCar2
   - ThiefCar1
   - PoliceCar
+  - guide
   layers:
   - Default
   - TransparentFX
@@ -30,7 +31,7 @@ TagManager:
   - Obstacle
   - Player
   - MiniMap
-  - 
+  - guide
   - 
   - 
   - 

@@ -20,7 +20,7 @@ public class Level1 : MonoBehaviour
 
             ////// YAHAN SE AP CUT SCENE DHEKHA SKTIN
             Debug.Log(currentThiefCatchCount+ " Thief's Car Get Caught!");
-            GameManager.Instance.EndCutScene.SetActive(true);
+            GameManager.Instance.Lvl1EndCutScene.SetActive(true);
         }
     }
     private void OnDisbale()
